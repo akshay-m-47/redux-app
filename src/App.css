@@ -6,7 +6,30 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+/*  */
+.img-wrapper img{
+    width: 100px;
+    margin-top: -25px;
+}
+.cart-wrapper{
+  height: 100px;
+  width: 500px;
+  border: 1px solid black;
+  margin-left: 10%;
+}
+.item{
+  float: left;
+  display: inline-block;
+  padding: 20px;
+  height: 70px;
+}
+.add-to-cart img{
+  width: 80px;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+/*  */
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
